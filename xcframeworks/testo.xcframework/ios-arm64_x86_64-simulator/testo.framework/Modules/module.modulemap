@@ -1,0 +1,11 @@
+framework module testo {
+  umbrella header "testo.h"
+  export *
+
+  module * { export * }
+}
+
+module testo.Swift {
+  header "testo-Swift.h"
+  requires objc
+}
